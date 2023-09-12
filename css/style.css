@@ -1,3 +1,56 @@
-body {
-  background-color: pink;
+:root {
+  --white: #FFFFFF;
+  --light-green: #0CDAC3;
+  --neon-green: #00BD2B;
+  --blue: #0038D8;
+  --black: #000000;
 }
+
+body {
+  background: transparent url(../images/background.png) no-repeat center;
+  width: 80%;
+  font-family: 'Poppins', sans-serif;  
+  margin: 6rem auto;
+}
+
+.logo {
+  width: 300px;
+}
+
+.texto {
+  text-align: center;
+  color: var(--white);
+  text-shadow: 1px 1px 1px var(--black);
+}
+
+.texto-destaque {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.btn {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: .5s;;
+}
+
+.btn:hover {
+  border: 1px solid var(--white);
+  background-color: transparent;
+  color:#FFFFFF;
+  font-weight: bold;
+}
+
+.btn-blue {
+  background-color: var(--blue);
+}
+
+.btn-green {
+  background-color: var(--light-green);
+}
+
+
+
+
