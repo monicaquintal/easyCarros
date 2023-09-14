@@ -11,9 +11,10 @@
   <link rel="stylesheet" href="../css/login.css">
 </head>
 <body class="container">
-  <header>
+
+  <header> <!-- Início cabeçalho -->
     <!-- Início Barra de Navegação -->
-    <nav class="navbar bg-body-tertiary fixed-top d-block">
+    <nav class="navbar bg-body-tertiary fixed-top fixed-top shadow-sm">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img src="../images/logo.svg" width="120px" alt="">
@@ -53,23 +54,24 @@
       </div>
     </nav>
     <!-- Fim Barra de Navegação -->
-  </header>
-
-  <main class="conteudo row">
+  </header> <!-- Fim cabeçalho -->
+  
+  <main class="conteudo row col-lg-5"> <!-- Início conteúdo principal -->
     <h1 class="titulo display-5 mt-3 text-center">Entrar</h1>
     <form action="" id="cadastro" name="cadastro" method="post">
-        <div class="row rounded p-3 col-md-11">
-            <div class="col-md-7 my-2 box-input">
+        <div class="row rounded p-3">
+
+            <div class="my-2 box-input">
               <i class="fa-solid fa-info"></i>
               <label for="login" class="form-label">login</label>
               <input type="text" class="form-control" id="login">
             </div>
-            <div class="col-md-7 my-2 box-input">
+            <div class="my-2 box-input">
               <i class="fa-solid fa-lock"></i>
               <label for="senha" class="form-label">senha</label>
               <input type="password" class="form-control" id="senha">
             </div>
-            <div class="col-md-7 d-flex justify-content-between">
+            <div class="d-flex justify-content-between">
               <div class="d-flex flex-row-reverse">
                 <label for="lembrar">&#160;Lembre de mim</label>
                 <input type="radio" name="lembrar" id="lembrar">
@@ -81,37 +83,37 @@
             </div>
           </div>
         </form>
-        <div class="col-md-7 d-flex justify-content-center mt-2">
-          <a href="./principal.html">
+        <div class="d-flex justify-content-center mt-2 botao-login">
+          <a href="./principal.html" class="">
             <button class="btn btn-md botao">Login</button>
           </a>
         </div>
 
-        <div class="column col-md-5 login-alternativo">
-          <div class="col-md-12 text-center">
+        <div class="d-flex flex-column login-alternativo">
+          <div class="text-center">
             <p>Não possui uma conta? <a href="#"><span>Clique aqui!</span></a></p>
             <hr>
             <p>Ou faça login utilizando Redes Sociais:</p>
           </div>
-          <div class="col-md-10 d-flex justify-content-center mt-3 gap-5 col-12 redes">
+          <div class="d-flex justify-content-center mt-3 gap-4 col-12 redes">
             <a href="#"><i class="fa-brands fa-google"></i></a>
             <a href="#"><i class="fa-brands fa-facebook"></i></a>
             <a href="#"><i class="fa-brands fa-instagram"></i></a>
           </div>
         </div>
-
     </div>
-  </main>
+  </main><!-- Fim conteúdo principal -->
 
-  <footer>
-    <div class="d-flex justify-content-center">
-      <a href="" class="">
-        <button class="btn btn-md fixed-bottom d-flex justify-content-center align-items-center gap-3 whatsapp"><i class="fa-brands fa-whatsapp"></i> Fale Conosco via Whatsapp</button>
+  <footer class="rodape col-lg-5"> <!-- Início rodapé -->
+    <div class="container-rodape">
+      <a href="" class="link-whatsapp">
+        <button class="btn whatsapp"><i class="fa-brands fa-whatsapp"></i> Fale Conosco via Whatsapp</button>
       </a>
     </div>
-  </footer>
+  </footer> <!-- Fim rodapé -->
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/feb55b9a3b.js" crossorigin="anonymous"></script>
+
 </body>
 </html>
