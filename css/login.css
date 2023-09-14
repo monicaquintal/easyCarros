@@ -10,11 +10,6 @@ body {
   margin: 7rem auto;
 }
 
-.imagem {
-  margin-top: 4rem;
-  max-height: 100vh;
-}
-
 .titulo {
   color: var(--blue);
   font-weight: bold;
