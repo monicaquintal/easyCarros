@@ -3,6 +3,7 @@
   --light-green: #0CDAC3;
   --neon-green: #00BD2B;
   --blue: #0038D8;
+  --light-gray: rgb(178, 178, 178);
   --black: #000000;
 }
 
@@ -10,7 +11,7 @@ body {
   background: transparent url(../images/background.png) no-repeat center;
   width: 80%;
   font-family: 'Poppins', sans-serif;  
-  margin: 6rem auto;
+  margin: 4rem auto;
 }
 
 .logo {
@@ -33,14 +34,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: .5s;;
+  transition: .5s ease-in-out;
+  color: var(--white);
 }
 
 .btn:hover {
-  border: 1px solid var(--white);
-  background-color: transparent;
-  color:#FFFFFF;
-  font-weight: bold;
+  background-color: var(--light-gray);
+  color: var(--black);
+  border: 1px solid var(--black);
 }
 
 .btn-blue {
@@ -51,6 +52,12 @@ body {
   background-color: var(--light-green);
 }
 
+footer a {
+  text-decoration: none;
+  color: var(--black);
+  transition: .3s ease-in-out;
+}
 
-
-
+footer a:hover {
+  color: var(--blue);
+}
