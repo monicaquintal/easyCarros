@@ -21,7 +21,7 @@ body {
   gap: 1rem;
   align-items: baseline;
   justify-content: center;
-  border: 1px solid var(--light-gray);
+  border: 1px solid var(--dark-gray);
   border-radius: 15px;
   box-shadow: 5px 5px 5px var(--dark-gray);
 }
