@@ -1,30 +1,18 @@
-:root {
-  --white: #FFFFFF;
-  --light-green: #0CDAC3;
-  --neon-green: #00BD2B;
-  --blue: #0038D8;
-  --light-gray: rgb(178, 178, 178);
-  --black: #000000;
-}
+@import 'padroes.css';
 
 body {
   background: transparent url(../images/background.png) no-repeat center;
-  width: 80%;
-  font-family: 'Poppins', sans-serif;  
-  margin: 4rem auto;
+  margin: 4rem auto auto;
+  max-height: 100vh;
+  color: var(--white);
 }
 
 .logo {
   width: 300px;
 }
 
-.texto {
-  text-align: center;
-  color: var(--white);
-  text-shadow: 1px 1px 1px var(--black);
-}
-
 .texto-destaque {
+  text-shadow: 1px 1px 1px var(--black);
   font-weight: bold;
   font-size: 1.2rem;
 }

@@ -1,0 +1,83 @@
+@import 'padroes.css';
+
+body {
+  color: var(--black);
+  max-height: 100vh;
+}
+
+.conteudo {
+  margin: 7rem 1rem auto;
+}
+
+.titulo {
+  color: var(--blue);
+  font-weight: bold;
+}
+
+.box-input {
+  display: flex;
+  flex-direction: row; 
+  gap: 1rem;
+  align-items: baseline;
+  border: 1px solid var(--light-gray);
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px var(--light-gray);
+}
+
+.form-control {
+  border: var(--white);
+}
+
+.botao {
+  width: 18rem;
+  background-color: var(--light-green);
+}
+
+.login-alternativo {
+  margin-top: 1rem;
+}
+
+a {
+  color: var(--light-green);
+  text-decoration: none;
+  transition: .5s ease-in-out;
+}
+
+a:hover {
+  color: var(--blue);
+  cursor: pointer;
+}
+
+.redes i {
+  font-size: 45px;
+  transition: .5s;
+  text-shadow: 5px 5px 5px var(--gray);
+}
+
+.whatsapp {
+  background-color: var(--neon-green);
+  margin: auto 2rem;
+  height: 4rem;
+  color: var(--white);
+  transition: .5s ease-in-out;
+}
+
+.whatsapp:hover, .botao:hover {
+  background-color: var(--light-gray);
+  cursor: pointer;
+  color: var(--black);
+  transition: .5s ease-in-out;
+}
+
+footer i {
+  font-size: 2rem;
+}
+
+@media (min-width: 768px) {
+
+  .login-alternativo {
+    margin-top: -9rem;
+  }
+
+
+}
