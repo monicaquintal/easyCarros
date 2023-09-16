@@ -2,9 +2,11 @@
 
 body {
   background: transparent url(../images/background.png) no-repeat center;
-  margin: 4rem auto auto;
-  max-height: 100vh;
   color: var(--white);
+}
+
+section {
+  height: 100vh;
 }
 
 .logo {
@@ -38,11 +40,6 @@ body {
 
 .btn-green {
   background-color: var(--light-green);
-}
-
-footer{
-  display: flex;
-  padding-top: 5%;
 }
 
 footer a {

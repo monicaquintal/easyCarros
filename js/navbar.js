@@ -2,7 +2,7 @@ function inserirNavbar() {
   return `
   <nav class="navbar bg-body-tertiary fixed-top fixed-top shadow-sm">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="../index.html">
       <img src="../images/logo.svg" width="120px" alt="">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
