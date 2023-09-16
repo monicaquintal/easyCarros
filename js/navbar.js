@@ -20,16 +20,16 @@ function inserirNavbar() {
         </form><br/>
         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Serviços</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Veículos</a>
+            <a class="nav-link" href="../pages/principal.html">Veículos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Histórico de Locações</a>
+            <a class="nav-link" href="../pages/login.html">Histórico de Locações</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Fale Conosco</a>
@@ -45,8 +45,8 @@ function inserirNavbar() {
               Sugestões de frota
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Carros</a></li>
-              <li><a class="dropdown-item" href="#">Motos</a></li>
+              <li><a class="dropdown-item" href="../pages/principal.html">Carros</a></li>
+              <li><a class="dropdown-item" href="../pages/motocicletas.html">Motos</a></li>
               <li><a class="dropdown-item" href="#">Carros adaptados</a></li>
             </ul>
           </li>
