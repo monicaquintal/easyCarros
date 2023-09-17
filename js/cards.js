@@ -1,16 +1,16 @@
 function createCard(nomeModelo, categoria, carro, passageiros, arCondicionado, numeroPortas, bagagem, valor) {
   return `
-  <div class="card mb-3 mx-auto" style="max-width: 600px;">
+  <div class="card mb-3 mx-auto" style="max-width: 550px;">
   <div class="row g-0">
-    <div class="col-11">
+    <div class="col-lg-12">
       <div class="card-body">
         <h5 class="card-title">Modelo ${nomeModelo}<small class="text-body-secondary"> ou similar</small></h5>
         <p class="card-text">Categoria ${categoria}</p>
         <div class="d-flex row">
-          <div class="col-5">
+          <div class="col-6">
             <img src="../images/${carro}.png" class="img-fluid" style="max-height: 150px;" alt="...">
           </div>
-          <div class="col-5 d-flex flex-column justify-content-center mt-4">
+          <div class="col-6 d-flex flex-column justify-content-center mt-4">
             <div class="d-flex justify-content-space-between gap-5 fs-5 text-center">
               <p><i class="fa-solid fa-user"></i> ${passageiros}</p>
               <p><i class="fa-regular fa-snowflake"></i> ${arCondicionado}</p>
