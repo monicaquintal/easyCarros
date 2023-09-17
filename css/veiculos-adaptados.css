@@ -1,0 +1,63 @@
+@import 'padroes.css';
+
+body {
+  color: var(--black);
+  height: 100vh;
+  background: url(../images/background-opacity.png) no-repeat center;
+  background-attachment: fixed;
+}
+
+.conteudo {
+  margin: 10rem 0;
+  width: 100%;
+}
+
+.banner-pcd {
+  height: 60vh;
+  background-color: var(--white);
+  margin: 10rem auto -6rem;
+}
+
+.spam-pcd, small {
+  color: var(--light-green);
+}
+
+ul {
+  list-style: none;
+}
+
+.banner-pcd i {
+  color: var(--neon-green);
+}
+
+@media only screen and (max-width: 800px) {
+  .banner-pcd img {
+    display: none;
+  }
+
+  .banner-pcd h2, .banner-pcd spam {
+    font-size: 2rem;
+  }
+
+  .banner-pcd p {
+    font-size: .5rem;
+  }
+
+  .conteudo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0rem;
+    padding-bottom: 3rem;
+  }
+
+  .exemplos {
+    display: none;
+  }
+
+  .conteudo-card {
+    margin: auto;
+    width: 80vw;
+  }
+
+}

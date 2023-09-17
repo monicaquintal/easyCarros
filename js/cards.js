@@ -10,7 +10,7 @@ function createCard(nomeModelo, categoria, carro, passageiros, arCondicionado, n
           <div class="col-6">
             <img src="../images/${carro}.png" class="img-fluid" style="max-height: 150px;" alt="...">
           </div>
-          <div class="col-6 d-flex flex-column justify-content-center mt-4">
+          <div class="col-6 d-flex flex-column justify-content-center align-items-center mt-4">
             <div class="d-flex justify-content-space-between gap-5 fs-5 text-center">
               <p><i class="fa-solid fa-user"></i> ${passageiros}</p>
               <p><i class="fa-regular fa-snowflake"></i> ${arCondicionado}</p>

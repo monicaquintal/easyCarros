@@ -10,7 +10,7 @@ function createCard(nomeModelo, marca, moto, cilindradas, peso, altura, consumo,
           <div class="col-5">
             <img src="../images/${moto}.png" class="img-fluid" style="max-height: 150px;" alt="...">
           </div>
-          <div class="col-5 d-flex flex-column justify-content-center mt-4">
+          <div class="col-6 d-flex flex-column justify-content-center mt-4">
             <div class="d-flex justify-content-space-between gap-5 fs-5 text-center">
               <p><i class="fa-solid fa-gear"></i> ${cilindradas}</p>
               <p><i class="fa-solid fa-weight-scale"></i> ${peso}kg</p>

@@ -47,7 +47,7 @@ function inserirNavbar() {
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="../pages/principal.html">Carros</a></li>
                 <li><a class="dropdown-item" href="../pages/motocicletas.html">Motos</a></li>
-                <li><a class="dropdown-item" href="#">Carros adaptados</a></li>
+                <li><a class="dropdown-item" href="../pages/veiculos-adaptados.html">Carros adaptados</a></li>
               </ul>
             </li>
             <li>
@@ -57,7 +57,7 @@ function inserirNavbar() {
               <a class="nav-link active" aria-current="page" href="../pages/motoristas-app.html">Motoristas de App</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link" href="../pages/motoristas-app.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Preços exclusivos 
               </a>
             </li>
