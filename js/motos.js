@@ -1,16 +1,16 @@
 function createCard(nomeModelo, marca, moto, cilindradas, peso, altura, consumo, valor) {
   return `
-  <div class="card mb-3 mx-auto" style="max-width: 600px;">
+  <div class="card mb-3 mx-auto" style="max-width: 500px;">
   <div class="row g-0">
-    <div class="col-12">
+    <div class="col-11">
       <div class="card-body">
         <h5 class="card-title">Modelo ${nomeModelo}<small class="text-body-secondary"> ou similar</small></h5>
         <p class="card-text">Categoria ${marca}</p>
         <div class="d-flex row">
-          <div class="col-6">
+          <div class="col-5">
             <img src="../images/${moto}.png" class="img-fluid" style="max-height: 150px;" alt="...">
           </div>
-          <div class="col-6 d-flex flex-column justify-content-center mt-4">
+          <div class="col-5 d-flex flex-column justify-content-center mt-4">
             <div class="d-flex justify-content-space-between gap-5 fs-5 text-center">
               <p><i class="fa-solid fa-gear"></i> ${cilindradas}</p>
               <p><i class="fa-solid fa-weight-scale"></i> ${peso}kg</p>
