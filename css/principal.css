@@ -2,7 +2,7 @@
 
 body {
   color: var(--black);
-  max-height: 100vh;
+  height: 100vh;
   background: url(../images/background-opacity.png) no-repeat center;
   background-attachment: fixed;
 }

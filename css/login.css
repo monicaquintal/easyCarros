@@ -2,12 +2,11 @@
 
 body {
   color: var(--black);
-  max-height: 100vh;
   background: url(../images/background-opacity.png) no-repeat center;
 }
 
 .conteudo {
-  margin: 7rem auto;
+  margin: 7rem auto 0;
 }
 
 .titulo {
