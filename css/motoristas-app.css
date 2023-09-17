@@ -1,0 +1,44 @@
+@import 'padroes.css';
+
+body {
+  color: var(--black);
+  height: 100vh;
+  background: url(../images/background-opacity.png) no-repeat center;
+  background-attachment: fixed;
+}
+
+.conteudo {
+  margin: 10rem 0;
+}
+
+.banner-motoristas {
+  height: 60vh;
+  background-color: var(--white);
+  margin: 10rem auto -6rem;
+}
+
+.spam-motoristas {
+  color: var(--blue);
+}
+
+ul {
+  list-style: none;
+}
+
+.banner-motoristas i {
+  color: var(--neon-green);
+}
+
+@media only screen and (max-width: 800px) {
+  .banner-motoristas img {
+    display: none;
+  }
+
+  .banner-motoristas h2, .banner-motoristas spam {
+    font-size: 2rem;
+  }
+
+  .banner-motoristas p {
+    font-size: .5rem;
+  }
+}

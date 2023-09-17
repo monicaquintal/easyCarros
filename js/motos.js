@@ -1,8 +1,8 @@
 function createCard(nomeModelo, marca, moto, cilindradas, peso, altura, consumo, valor) {
   return `
-  <div class="card mb-3 mx-auto" style="max-width: 600px;">
+  <div class="card mb-3 mx-auto" style="max-width: 550px;">
   <div class="row g-0">
-    <div class="col-11">
+    <div class="col-lg-12">
       <div class="card-body">
         <h5 class="card-title">Modelo ${nomeModelo}<small class="text-body-secondary"> ou similar</small></h5>
         <p class="card-text">Categoria ${marca}</p>

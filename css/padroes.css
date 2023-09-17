@@ -18,3 +18,58 @@ body {
   font-family: 'Poppins', sans-serif;  
   font-size: 16px;
 }
+
+/* whatsapp */
+
+.whatsapp {
+  background-color: var(--neon-green);
+  height: 3.5rem;
+  color: var(--white);
+  transition: .5s ease-in-out;
+  width: 20rem;
+}
+
+.whatsapp:hover {
+  background-color: var(--light-gray);
+  cursor: pointer;
+  color: var(--black);
+  transition: .5s ease-in-out;
+  border: 1px solid var(--black);
+}
+
+footer .fa-whatsapp {
+  font-size: 2rem;
+}
+
+.rodape {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container-rodape {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 600px) {
+  .conteudo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .card {
+    width: 700px;
+  }
+
+}

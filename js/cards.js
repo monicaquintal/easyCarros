@@ -1,6 +1,6 @@
 function createCard(nomeModelo, categoria, carro, passageiros, arCondicionado, numeroPortas, bagagem, valor) {
   return `
-  <div class="card mb-3 mx-auto" style="max-width: 550px;">
+  <div class="card mb-3 mx-auto" style="max-width: 600px;">
   <div class="row g-0">
     <div class="col-lg-12">
       <div class="card-body">

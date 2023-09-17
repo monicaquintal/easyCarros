@@ -1,4 +1,4 @@
-@import 'padroes.css';
+@import './padroes.css';
 
 body {
   color: var(--black);
@@ -49,6 +49,12 @@ span:hover {
   width: 20rem;
   height: 2.5rem;
   background-color: var(--light-green);
+  transition: .3s ease-in-out;
+}
+
+.botao:hover {
+  background-color: var(--light-gray);
+  border: 1px solid var(--black);
 }
 
 .login-alternativo {
@@ -67,47 +73,7 @@ a:hover {
 }
 
 .redes i {
-  font-size: 45px;
+  font-size: 2.5rem;
   transition: .5s;
   text-shadow: 5px 5px 5px var(--gray);
-}
-
-.rodape {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-}
-
-.container-rodape {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-
-}
-
-.whatsapp {
-  background-color: var(--neon-green);
-  height: 3.5rem;
-  color: var(--white);
-  transition: .5s ease-in-out;
-  width: 20rem;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-}
-
-.whatsapp:hover, .botao:hover {
-  background-color: var(--light-gray);
-  cursor: pointer;
-  color: var(--black);
-  transition: .5s ease-in-out;
-  border: 1px solid var(--black);
-}
-
-footer i {
-  font-size: 2rem;
 }
