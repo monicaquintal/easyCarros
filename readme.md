@@ -19,3 +19,13 @@ Segundo semestre:
 - Modelagem de dados.
 - Diagrama de classe da solução.
 - Explique três (3) insights (apresentar três insights que a nova plataforma de aluguel de veículos poderá proporcionar ao negócio).
+
+---
+
+## Projeto desenvolvido:
+
+<div align="center">
+
+https://github.com/monicaquintal/easyCarros/assets/111545468/74a9000d-192f-4804-acea-42dade990fa3
+
+</div>
